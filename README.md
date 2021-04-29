@@ -12,7 +12,7 @@ $ cd cell
 $ make
 $ sudo make install
 ```
-The "git clone" command will download all of the files for the simulator into a file named cell. The "cd cell" command moves the current working directory into the cell file, and the "make" command compiles the siumlator. The "sudo make install" command copies the cell program file to a system file so the program can be run outside of the directory it was compiled in. If the user would prefer not to install the program onto their system, the program can be run from the file it was compiled in with the ./cell command. There is also the optional "make clean" command that will delete unneeded files from the directory the program was compiled in.
+The "git clone" command will download all of the files for the simulator into a file named cell. The "cd cell" command moves the current working directory into the cell file, and the "make" command compiles the siumlator. The "sudo make install" command copies the cell program file to a system file so the program can be run outside of the directory it was compiled in. If the user would prefer not to install the program onto their system, the program can be run from the file it was compiled in with the "./cell" command. There is also the optional "make clean" command that will delete unneeded files from the directory the program was compiled in.
 
 ## Usage
 
