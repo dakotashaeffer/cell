@@ -28,7 +28,7 @@ The maximum grid size can be increased by decreasing the font of the terminal wi
 
 ## Example
 
-The following command will run a simulation for 100 cycles with a cell size of 256, red colored cells, and a rule set that creates clumps of cells:
+The following command will run a simulation for 100 cycles with a cell size of 256, red colored cells, and a rule set where a dead cell will come alive if it has 3 live neighbors, and a live cell will stay alive if it has 4, 5, 6, 7, or 8 live neighbors:
 ```
 $ cell -n 100 -s 256 -c red -b 3 -l 45678
 ```
